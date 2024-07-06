@@ -2046,7 +2046,7 @@ smd(
               fs.readFileSync("output.mp4"),
               {
                 caption:
-                  "Made by Suhail\n_Interpolated to " + _0xd4c6d1[1] + " FPS_",
+                  "Made by Dougy_k1000\n_Interpolated to " + _0xd4c6d1[1] + " FPS_",
               },
               "video"
             );
