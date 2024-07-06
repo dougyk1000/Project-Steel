@@ -1,7 +1,7 @@
 {
   "name": "Project-Steel",
   "description": "Project-Steel a simple WhatsAppp Bot",
-  "logo": "https://telegra.ph/file/a22200a780671e0e32383.jpg",
+  "logo": "assets/23. Silver Cavalier.png",
   "keywords": "Project-Steel",
   "success_url": "/Asta/",
   "app_url": "/qr/",
@@ -28,7 +28,7 @@
     },
     "OWNER_NAME": {
       "description": "Owner Name",
-      "value": "David Cyril",
+      "value": "Dougy_k1000",
       "required": true
     },
 
@@ -46,7 +46,7 @@
     "BOT_NAME": {
       "description": "Bot Name",
       "required": false,
-      "value": "QUEEN_ANITA-V2"
+      "value": "Project-Steel"
     },
     "USER_IMAGES": {
       "description": "Image for bot",
@@ -56,7 +56,7 @@
     "TZ": {
       "description": "Don't change if you dont know your location.",
       "required": false,
-      "value": "Africa/Lagos"
+      "value": "Africa/Harare"
     },
     "SS_RESET": {
       "description": "If the bot doesn't work after delpoyment",
@@ -100,16 +100,16 @@
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": ""
+      "value": ";"
     },
     "OWNER_NUMBER": {
       "description": "Owner number or sudo",
-      "value": "2349066528353,2347043759577"
+      "value": "263789707745"
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
-      "value": "",
-      "required": false
+      "value": "sk-proj-FsFtT5cPJ7xa0C5r08ylT3BlbkFJBzwJqtMz2BMMbmRpHlDr",
+      "required": true
     },
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key",
@@ -123,17 +123,17 @@
     },
     "MODE": {
       "description": "public or private",
-      "value": "private"
+      "value": "public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "QUEEN_ANITA-V2",
-      "required": false
+      "value": "Project-Steel",
+      "required": true
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
-      "required": false
+      "value": "Dougy_k1000",
+      "required": true
     }
   },
   "buildpacks": [
