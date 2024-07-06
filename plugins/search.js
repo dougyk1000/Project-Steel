@@ -290,7 +290,7 @@ smd({
  )
 
     //---------------------------------------------------------------------------
-/*
+
 smd({
             pattern: "horo",
             category: "search",
@@ -323,7 +323,7 @@ smd({
             }catch(e){return await message.error(`${e}\n\n command: horo`,e,`*_Uhh dear, Didn't get any results!_*`) }
         }
     )
-    */
+    
     //---------------------------------------------------------------------------
 
 smd({
@@ -543,13 +543,13 @@ try{
 
 
 try{
-    // let Group = await groupdb.findOne({ id: message.chat }) 
-    // let safe = Group.nsfw === "true" ? "off" : "on" 
+    let Group = await groupdb.findOne({ id: message.chat }) 
+    let safe = Group.nsfw === "true" ? "off" : "on" 
 
-    // let n = await gis(name1, { query: { safe },
-    //     userAgent:  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
-    //   },)
-// console.log("images results : " , n) 
+     let n = await gis(name1, { query: { safe },
+         userAgent:  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
+     },)
+console.log("images results : " , n) 
 
 let n = await downloadImages(name1,"off")
 if(n && n[0]){
@@ -707,7 +707,7 @@ smd({
         pattern: "nowa",
         category: "search",
         desc: "Searches in given rage about given number.",
-        use: '23490665283xx',
+        use: '2637897077xx',
         filename: __filename,
     },
     async(message, text) => {
